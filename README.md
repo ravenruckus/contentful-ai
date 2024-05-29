@@ -1,4 +1,4 @@
-
+[Link to look video demo](https://www.loom.com/share/47ac27bb047d41a381386d9d08ea2451?sid=265670f8-945a-4761-be59-9f2e1ce6eb0d)
 <div style="text-align: center;">
   <img width="1704" alt="image-of-editor" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/283aaac2-f094-4198-9406-5a5aee8eaed9">
 </div>
