@@ -12,7 +12,7 @@ export default function Thread() {
   const [input, setInput] = useState('');
   const [shouldDisable, setShouldDisable] = useState(true);
   return (
-    <Stack flexDirection="column" alignItems="start">
+    <Stack flexDirection="column" fullWidth={true} alignItems="stretch">
       {messages.map((m, i) => (
         <Text key={i} fontSize="fontSizeM" lineHeight="lineHeightM">
           {m.role === 'user' ? 'User: ' : 'AI: '}
@@ -49,6 +49,7 @@ export default function Thread() {
       >
         <TextInput 
           value={input}
+          size='medium'
           placeholder="Type your prompt here..."
           onChange={(e) => setInput(e.target.value)}
         />

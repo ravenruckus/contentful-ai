@@ -12,7 +12,7 @@ async function threadAction(messages: CoreMessage[]) {
     const result = await streamText({
       model: openai('gpt-4o'),
       messages: [
-        { role: 'system', content: 'You are an expert byline writer for websites. Do not use quotes and keep responses under 30 words.' },
+        { role: 'system', content: 'You are an expert byline writer for websites. Do not use quotes. Keep responses under 30 words.' },
         ...messages,
       ]
     });
