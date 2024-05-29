@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Provider from "@/components/Provider";
-
-// import "./globals.css";
+import Provider from "@/app/components/Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Create Next App for Contentful",
-  description: "Create Next App for Contentful",
+  title: "Contentful Byline Generator",
+  description: "Contentful web app for generating bylines in the editor.",
 };
 
 export default function RootLayout({

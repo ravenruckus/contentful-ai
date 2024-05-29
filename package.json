@@ -3,18 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.16",
     "@contentful/app-sdk": "^4.25.0",
     "@contentful/f36-components": "^4.65.7",
     "@contentful/react-apps-toolkit": "^1.2.16",
-    "next": "14.2.3",
+    "@emotion/react": "^11.11.4",
+    "ai": "^3.1.15",
+    "next": "^14.2.3",
+    "openai": "^4.47.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-error-boundary": "^4.0.13"
   },
   "devDependencies": {
     "@types/node": "^20",
