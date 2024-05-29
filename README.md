@@ -17,5 +17,5 @@ Built with Next.js using OpenAI's model API
 
 <div style="text-align: center;">
   <img width="960" alt="Byline-inserted" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/eb914322-a2e3-4bb4-ab96-eed8def04ea6">
-#</div>
+</div>
 
