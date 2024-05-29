@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Contentful Web App for AI-Assisted Byline Creation
 
-## Getting Started
+Built with Next.js using OpenAI's model API
 
-First, run the development server:
+[Link to look video demo](https://www.loom.com/share/47ac27bb047d41a381386d9d08ea2451?sid=265670f8-945a-4761-be59-9f2e1ce6eb0d)
+<div style="text-align: center;">
+  <img width="1704" alt="image-of-editor" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/283aaac2-f094-4198-9406-5a5aee8eaed9">
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div style="text-align: center;">
+  <img width="358" alt="app-initial-state" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/c0339177-3a70-4102-92d1-d375a9a2f2ef">
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div style="text-align: center;">
+  <img width="350" alt="chat-history" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/ef7746da-ab66-45ad-9ad8-6cc17cc6eea0">
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div style="text-align: center;">
+  <img width="960" alt="Byline-inserted" src="https://github.com/ravenruckus/contentful-ai/assets/7894424/eb914322-a2e3-4bb4-ab96-eed8def04ea6">
+#</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
